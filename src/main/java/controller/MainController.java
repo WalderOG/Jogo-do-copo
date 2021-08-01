@@ -23,9 +23,9 @@ public class MainController{
 public static void main(String[] args) {
         Application.launch(args);
     }
-    // gera um numero de 1 a 3 ,somei +1 para começar no 1
+    // gera um numero aleatório de 1 a 3
     Random rand = new Random();
-    int bolinha= rand.nextInt(2)+1;
+    int bolinha= rand.nextInt(2);
 
     //copo 1
     public void copo1() throws IOException {
